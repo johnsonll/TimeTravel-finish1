@@ -10,7 +10,7 @@ import UIKit
 
 class shopFactory: NSObject {
     var shopList: Array<shopManager> = Array()
-    
+    var a: String = ""
     var item_id: String!
     var money_price: String!
     var price: Array<Int> = Array<Int>()
